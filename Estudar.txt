@@ -1,0 +1,33 @@
+alert('Boas vindas ao jogo do número secreto');
+let numeroSecreto = 4;
+console.log(numeroSecreto)
+let chute = prompt('Escolha um número entre 1 e 10');
+console.log('Resultado da comparação: ', chute == numeroSecreto);
+
+//Se chute for igual ao numero secreto
+if (chute == numeroSecreto) {
+    alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto}`);
+} else {
+    alert('Você errou :(')
+    console.log('Valor do numero secreto: ', numeroSecreto);
+    alert('O numero secreto era: ', + numeroSecreto);
+}
+
+Qual é o dia da semana:
+
+diaDaSemana = prompt('Qual é o dia da semana?');
+if (diaDaSemana == 'Sábado') {
+    alert('Bom fim de semana!');
+} else if (diaDaSemana == 'Domingo') {
+    alert('Bom fim de semana!');
+} else {
+    alert('Boa semana!');
+}
+
+O numero digitado é positivo ou negativo:
+numero = prompt('Digite um numero positivo ou negativo:');
+if (numero > 0) {
+    alert('O numero digitado é positivo');
+} else {
+    alert('O numero digitado é negativo');
+}
